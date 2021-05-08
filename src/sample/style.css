@@ -19,3 +19,10 @@
 #addprofileText{
     -fx-background-color: #34E7E4;
 }
+#OrangeHeader{
+    -fx-background-color: #FFA801;
+}
+#Leaderboard-border{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}

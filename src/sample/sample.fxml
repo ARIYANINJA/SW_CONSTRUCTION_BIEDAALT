@@ -28,25 +28,31 @@
             <Font size="100.0" />
          </font>
       </Text>
-      <Button id="PLAY" fx:id="playbtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#play" prefHeight="300.0" prefWidth="250.0" text="PLAY" GridPane.rowIndex="3" GridPane.rowSpan="2">
+      <Button id="PLAY" fx:id="playbtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#play" prefHeight="300.0" prefWidth="227.0" text="PLAY" GridPane.rowIndex="3" GridPane.rowSpan="2">
          <font>
-            <Font size="70.0" />
+            <Font size="63.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+      </Button>
+      <Button id="PROFILE" fx:id="profilebtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#profile" prefHeight="107.0" prefWidth="268.0" text="PROFILE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font size="53.0" />
          </font>
       </Button>
-      <Button id="PROFILE" fx:id="profilebtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#profile" prefHeight="107.0" prefWidth="260.0" text="PROFILE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <Button id="LEADERBOARD" fx:id="leaderboardbtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#leaderboard" prefHeight="107.0" prefWidth="268.0" text="LEADERBOARD" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+      <Button id="ABOUT" fx:id="aboutbtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#about" prefHeight="300.0" prefWidth="229.0" text="ABOUT" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.rowSpan="2">
          <font>
             <Font size="50.0" />
          </font>
-      </Button>
-      <Button id="LEADERBOARD" fx:id="leaderboardbtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#leaderboard" prefHeight="107.0" prefWidth="260.0" text="LEADERBOARD" GridPane.columnIndex="1" GridPane.rowIndex="4">
-         <font>
-            <Font size="30.0" />
-         </font>
-      </Button>
-      <Button id="ABOUT" fx:id="aboutbtn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#about" prefHeight="300.0" prefWidth="250.0" text="ABOUT" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.rowSpan="2">
-         <font>
-            <Font size="55.0" />
-         </font>
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
       </Button>
       <Label text="PROFILE NAME:" textFill="WHITE" GridPane.columnIndex="1">
          <font>
@@ -64,7 +70,7 @@
             <Insets left="160.0" />
          </GridPane.margin>
       </Label>
-      <Label fx:id="profileName" textFill="WHITE" GridPane.columnIndex="2">
+      <Label fx:id="profileName" text="RANDOM NAME " textFill="WHITE" GridPane.columnIndex="2">
          <GridPane.margin>
             <Insets left="10.0" />
          </GridPane.margin>
@@ -72,7 +78,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label fx:id="profileId" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+      <Label fx:id="profileId" text="RANDOM ID" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
          <GridPane.margin>
             <Insets left="10.0" />
          </GridPane.margin>
