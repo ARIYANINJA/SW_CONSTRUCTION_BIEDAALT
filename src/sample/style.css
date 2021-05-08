@@ -13,3 +13,9 @@
 #PROFILE{
     -fx-background-color: #32FF7E;
 }
+#addProfile{
+    -fx-background-color: #99F2C8;
+}
+#addprofileText{
+    -fx-background-color: #34E7E4;
+}
