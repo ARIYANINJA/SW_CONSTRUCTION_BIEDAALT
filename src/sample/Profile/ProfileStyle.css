@@ -1,0 +1,23 @@
+#btnProf{
+    -fx-background-color: #F4791F;
+    -fx-opacity: 0.8;
+    -fx-text-alignment: left;
+    -fx-font-size: 30px;
+}
+#txtFieldProf{
+    -fx-background-color: #34E7E4;
+    -fx-font-size: 60px;
+    -fx-text-fill: black;
+}
+#btnAddProfile{
+    -fx-background-color: #32FF7E;
+    -fx-font-size: 30px;
+}
+#btnDelete{
+    -fx-background-color:#34E7E4 ;
+    -fx-font-size: 30px;
+}
+#btnSelect{
+    -fx-background-color: #32FF7E;
+    -fx-font-size: 30px;
+}

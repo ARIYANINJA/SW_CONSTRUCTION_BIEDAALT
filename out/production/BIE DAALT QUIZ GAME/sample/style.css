@@ -13,3 +13,19 @@
 #PROFILE{
     -fx-background-color: #32FF7E;
 }
+<<<<<<< HEAD
+=======
+#addProfile{
+    -fx-background-color: #99F2C8;
+}
+#addprofileText{
+    -fx-background-color: #34E7E4;
+}
+#OrangeHeader{
+    -fx-background-color: #FFA801;
+}
+#Leaderboard-border{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+>>>>>>> fd67e57ad49122f11a402910f983d9d8de98547f

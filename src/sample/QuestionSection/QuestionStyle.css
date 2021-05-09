@@ -1,0 +1,70 @@
+#btnChoice1{
+    -fx-background-color: #FFF200;
+    -fx-opacity: 0.9;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 15px;
+    -fx-border-style: solid ;
+    -fx-border-color: #FFF200;
+}
+#btnChoice1:hover{
+    -fx-background-color: default;
+}
+#btnChoice2{
+    -fx-background-color: #32FF7E;
+    -fx-opacity: 0.9;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 15px;
+    -fx-border-style: solid ;
+    -fx-border-color: #32FF7E;
+}
+#btnChoice2:hover{
+    -fx-background-color: default;
+}
+#btnChoice3{
+    -fx-background-color: #F8EFBA;
+    -fx-opacity: 0.9;
+    -fx-font-family: "Roboto Light";
+    -fx-font-size: 15px;
+    -fx-border-style: solid ;
+    -fx-border-color: #F8EFBA;
+}
+#btnChoice3:hover{
+    -fx-background-color: default;
+}
+#btnChoice4{
+    -fx-background-color: #D6A2E8;
+    -fx-opacity: 0.9;
+    -fx-font-family: "Roboto Light";
+    -fx-border-style: solid ;
+    -fx-border-color: #D6A2E8;
+    -fx-font-size: 15px;
+}
+#btnChoice4:hover{
+    -fx-background-color: default;
+}
+#AnchorShde{
+    -fx-background-color: #3C40C6;
+    -fx-opacity: 0.9;
+}
+#btnExit{
+    -fx-background-color: #0FBCF9;
+    -fx-font-size: 30px;
+    -fx-border-style: solid ;
+    -fx-border-color: #0FBCF9;
+}
+#txtField{
+    -fx-background-color: #4BCFFA;
+    -fx-font-size: 50px;
+    -fx-text-fill: black;
+}
+#btnExit:hover{
+    -fx-background-color: default;
+}
+.label{
+    -fx-background-color: #F64F59;
+    -fx-opacity: 0.9;
+    -fx-font-size: 30px;
+    -fx-text-fill: black;
+}
+
+
