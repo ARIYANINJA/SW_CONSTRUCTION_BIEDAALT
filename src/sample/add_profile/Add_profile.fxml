@@ -12,12 +12,12 @@
 <?import javafx.scene.text.Font?>
 
 <<<<<<< HEAD
-<VBox id="backGround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" stylesheets="@Add_profile.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_profile.Add_profile_controller">
+<VBox id="backGround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" stylesheets="@Add_profile.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.add_profile.Add_profile_controller">
    <children>
       <HBox prefHeight="50.0" prefWidth="200.0" />
       <HBox id="addProfile" prefHeight="150.0" prefWidth="200.0" stylesheets="@Add_profile.css">
 =======
-<VBox id="backGround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" stylesheets="@../sample/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="add_profile.Add_profile_controller">
+<VBox id="backGround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="700.0" stylesheets="@../sample/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.add_profile.Add_profile_controller">
    <children>
       <HBox prefHeight="50.0" prefWidth="200.0" />
       <HBox id="addProfile" prefHeight="150.0" prefWidth="200.0" stylesheets="@../sample/style.css">

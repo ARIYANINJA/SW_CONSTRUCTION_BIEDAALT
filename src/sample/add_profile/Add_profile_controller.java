@@ -1,4 +1,4 @@
-package add_profile;
+package sample.add_profile;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

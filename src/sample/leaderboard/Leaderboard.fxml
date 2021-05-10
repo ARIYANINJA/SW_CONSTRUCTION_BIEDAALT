@@ -8,12 +8,12 @@
 <?import javafx.scene.text.Font?>
 
 <<<<<<< HEAD
-<VBox id="backGround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@Leaderboard.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="leaderboard.Leaderboard_controller">
+<VBox id="backGround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@Leaderboard.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.leaderboard.Leaderboard_controller">
    <children>
       <HBox prefHeight="50.0" prefWidth="800.0" />
       <HBox id="OrangeHeader" prefHeight="106.0" prefWidth="700.0" stylesheets="@Leaderboard.css">
 =======
-<VBox id="backGround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../sample/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="leaderboard.Leaderboard_controller">
+<VBox id="backGround" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../sample/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.leaderboard.Leaderboard_controller">
    <children>
       <HBox prefHeight="50.0" prefWidth="800.0" />
       <HBox id="OrangeHeader" prefHeight="106.0" prefWidth="700.0" stylesheets="@../sample/style.css">
