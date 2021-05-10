@@ -1,0 +1,13 @@
+#backGround{
+    -fx-background-color: #3C40C6;
+}
+#OrangeHeader{
+    -fx-background-color: #FFA801;
+}
+#Leaderboard-border{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+#MAINMENU{
+    -fx-background-color: #32FF7E;
+}
