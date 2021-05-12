@@ -13,8 +13,7 @@
 #PROFILE{
     -fx-background-color: #32FF7E;
 }
-<<<<<<< HEAD
-=======
+
 #addProfile{
     -fx-background-color: #99F2C8;
 }
@@ -28,4 +27,23 @@
     -fx-border-color: black;
     -fx-border-width: 2px;
 }
->>>>>>> fd67e57ad49122f11a402910f983d9d8de98547f
+button{
+    -fx-background-color: black;
+}
+.button1{
+    -fx-background-color: black;
+}
+#profName{
+    -fx-background-color: none;
+    -fx-text-fill: white;
+}
+#profId{
+    -fx-background-color: none;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: blue;
+    -fx-opacity: 1;
+    -fx-text-fill: red;
+}

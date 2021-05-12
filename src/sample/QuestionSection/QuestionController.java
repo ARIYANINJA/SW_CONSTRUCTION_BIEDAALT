@@ -1,10 +1,12 @@
 package sample.QuestionSection;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
+import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
+import sample.DBconnect.DBconnection;
 
 public class QuestionController {
 
@@ -12,7 +14,7 @@ public class QuestionController {
     private AnchorPane AnchorShde;
 
     @FXML
-    private TextField txtField;
+    private Label lblQuestion;
 
     @FXML
     private Button btnExit;
@@ -28,7 +30,22 @@ public class QuestionController {
 
     @FXML
     private Button btnChoice4;
+    private DBconnection dbconnection;
+    private String[]  Question ;
+    static int AsuultOlogch = 0;
 
+    public QuestionController() {
+//        txtField.setText("how old are you?");
+        System.out.println("QUESTIONCONTROLLER");
+    }
+    public void setDBconnection(DBconnection db){
+        this.dbconnection = db;
+        changeQuestion();
+    }
+    public void changeQuestion(){
+        Question = dbconnection.getQuestions();
+        lblQuestion.setText(Question[AsuultOlogch]);
+    }
     @FXML
     void Choice1(ActionEvent event) {
 
@@ -51,7 +68,8 @@ public class QuestionController {
 
     @FXML
     void Exit(ActionEvent event) {
-
+        Platform.exit();
+        System.exit(0);
     }
 
 }
