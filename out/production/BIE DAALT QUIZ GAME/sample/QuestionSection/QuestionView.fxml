@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane fx:id="AnchorShde" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #3C40C6;" stylesheets="@QuestionStyle.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QuestionSection.QuestionController">
+<AnchorPane fx:id="AnchorShde" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #3C40C6;" stylesheets="@QuestionStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QuestionSection.QuestionController">
    <children>
       <GridPane layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="800.0" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <columnConstraints>
@@ -41,19 +41,19 @@
             <AnchorPane prefHeight="76.0" prefWidth="806.0" GridPane.rowIndex="2">
                <children>
                   <Label alignment="CENTER" layoutX="20.0" layoutY="4.0" prefHeight="60.0" prefWidth="58.0" text="B" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="0.0" />
-                  <Button fx:id="btnChoice2" layoutX="78.0" layoutY="-2.0" mnemonicParsing="false" onAction="#Choice2" prefHeight="60.0" prefWidth="704.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="0.0" />
+                  <Button fx:id="btnChoice2" layoutX="78.0" layoutY="-2.0" mnemonicParsing="false" onAction="#Choice1" prefHeight="60.0" prefWidth="704.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="0.0" />
                </children>
             </AnchorPane>
             <AnchorPane prefHeight="76.0" prefWidth="806.0" GridPane.rowIndex="3">
                <children>
                   <Label alignment="CENTER" layoutX="20.0" layoutY="4.0" prefHeight="60.0" prefWidth="58.0" text="C" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="0.0" />
-                  <Button fx:id="btnChoice3" layoutX="78.0" layoutY="-2.0" mnemonicParsing="false" onAction="#Choice3" prefHeight="60.0" prefWidth="703.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="0.0" />
+                  <Button fx:id="btnChoice3" layoutX="78.0" layoutY="-2.0" mnemonicParsing="false" onAction="#Choice1" prefHeight="60.0" prefWidth="703.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="0.0" />
                </children>
             </AnchorPane>
             <AnchorPane prefHeight="76.0" prefWidth="806.0" GridPane.rowIndex="4">
                <children>
                   <Label alignment="CENTER" layoutX="20.0" layoutY="4.0" prefHeight="60.0" prefWidth="58.0" text="D" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="0.0" />
-                  <Button fx:id="btnChoice4" layoutX="78.0" mnemonicParsing="false" onAction="#Choice4" prefHeight="60.0" prefWidth="703.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="0.0" />
+                  <Button fx:id="btnChoice4" layoutX="78.0" mnemonicParsing="false" onAction="#Choice1" prefHeight="60.0" prefWidth="703.0" text="Button" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="0.0" />
                </children>
             </AnchorPane>
          </children>

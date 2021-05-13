@@ -77,7 +77,7 @@ public class QuestionController {
         btnChoice2.setText(Question.get(AsuultOlogch).getWrong1());
         btnChoice3.setText(Question.get(AsuultOlogch).getWrong2());
         btnChoice4.setText(Question.get(AsuultOlogch).getWrong3());
-        if (AsuultOlogch==4)
+        if (AsuultOlogch==15)
         {
             btnChoice1.setVisible(false);
             btnChoice2.setVisible(false);
