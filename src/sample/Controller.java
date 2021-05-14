@@ -68,8 +68,12 @@ public class Controller {
     }
 
     @FXML
-    void profile(MouseEvent event) {
-
+    void profile(MouseEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Profile/ProfileView.fxml"));
+        Parent clinic = loader.load();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(clinic));
+        stage.show();
     }
 
 
