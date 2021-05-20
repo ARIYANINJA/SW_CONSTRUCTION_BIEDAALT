@@ -15,20 +15,9 @@ import java.io.IOException;
 public class Controller {
 
     @FXML
-    private Button playbtn;
-
-    @FXML
-    private Button profilebtn;
-
-    @FXML
-    private Button leaderboardbtn;
-
-    @FXML
-    private Button aboutbtn;
-
+    private Button playbtn, profilebtn, leaderboardbtn, aboutbtn;
     @FXML
     private Label profileName;
-
     @FXML
     private Label profileId;
     private DBconnection dbconnecting;
@@ -37,16 +26,20 @@ public class Controller {
     }
 
     @FXML
-    void about(MouseEvent event) {
-
+    void about(MouseEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("About/About.fxml"));
+        Parent aboot = loader.load();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(aboot));
+        stage.show();
     }
 
     @FXML
     void leaderboard(MouseEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("leaderboard/Leaderboard.fxml"));
-        Parent clinic = loader.load();
+        Parent leeder = loader.load();
         Stage stage = new Stage();
-        stage.setScene(new Scene(clinic));
+        stage.setScene(new Scene(leeder));
         stage.show();
     }
 
@@ -70,9 +63,9 @@ public class Controller {
     @FXML
     void profile(MouseEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Profile/ProfileView.fxml"));
-        Parent clinic = loader.load();
+        Parent prof = loader.load();
         Stage stage = new Stage();
-        stage.setScene(new Scene(clinic));
+        stage.setScene(new Scene(prof));
         stage.show();
     }
 

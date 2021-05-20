@@ -18,24 +18,10 @@ public class QuestionController {
     private AnchorPane AnchorShde;
     @FXML
     private Button btnNext1;
-
     @FXML
     private Label lblQuestion;
-
     @FXML
-    private Button btnExit;
-
-    @FXML
-    private Button btnChoice1;
-
-    @FXML
-    private Button btnChoice2;
-
-    @FXML
-    private Button btnChoice3;
-
-    @FXML
-    private Button btnChoice4;
+    private Button btnChoice1,btnChoice2,btnChoice3,btnChoice4,btnExit;
 
     private DBconnection dbconnection;
     private ArrayList<QuestionAndAnswer> Question ;
